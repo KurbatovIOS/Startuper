@@ -18,10 +18,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let scene = (scene as? UIWindowScene) else { return }
         
-        let navigationVC = UINavigationController()
-        navigationVC.pushViewController(ViewController(), animated: true)
         window = UIWindow(windowScene: scene)
-        window?.rootViewController = navigationVC
+        window?.rootViewController = HomeTabBarController()
         window?.makeKeyAndVisible()
         
         
