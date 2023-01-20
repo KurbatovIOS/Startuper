@@ -16,7 +16,7 @@
 		B877C7472979C07500BA08F0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B877C7462979C07500BA08F0 /* TabBarController.swift */; };
 		B8D396D9297B12C300AD909F /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D396D8297B12C300AD909F /* TabBarPresenter.swift */; };
 		B8D396DB297B14C000AD909F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D396DA297B14C000AD909F /* ProfileViewController.swift */; };
-		B8D396DD297B14CB00AD909F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D396DC297B14CB00AD909F /* SearchViewController.swift */; };
+		B8D396DD297B14CB00AD909F /* ChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D396DC297B14CB00AD909F /* ChatsViewController.swift */; };
 		B8D396DF297B14E100AD909F /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D396DE297B14E100AD909F /* FavouriteViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,7 @@
 		B877C7462979C07500BA08F0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B8D396D8297B12C300AD909F /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
 		B8D396DA297B14C000AD909F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		B8D396DC297B14CB00AD909F /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B8D396DC297B14CB00AD909F /* ChatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsViewController.swift; sourceTree = "<group>"; };
 		B8D396DE297B14E100AD909F /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 		FA3574801E152F7592AAED11 /* Pods_Startuper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Startuper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -96,7 +96,7 @@
 			children = (
 				B877C7462979C07500BA08F0 /* TabBarController.swift */,
 				B80A47E92979BCA600A518A7 /* HomeViewController.swift */,
-				B8D396DC297B14CB00AD909F /* SearchViewController.swift */,
+				B8D396DC297B14CB00AD909F /* ChatsViewController.swift */,
 				B8D396DE297B14E100AD909F /* FavouriteViewController.swift */,
 				B8D396DA297B14C000AD909F /* ProfileViewController.swift */,
 			);
@@ -242,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8D396DB297B14C000AD909F /* ProfileViewController.swift in Sources */,
-				B8D396DD297B14CB00AD909F /* SearchViewController.swift in Sources */,
+				B8D396DD297B14CB00AD909F /* ChatsViewController.swift in Sources */,
 				B8D396D9297B12C300AD909F /* TabBarPresenter.swift in Sources */,
 				B877C7472979C07500BA08F0 /* TabBarController.swift in Sources */,
 				B8D396DF297B14E100AD909F /* FavouriteViewController.swift in Sources */,

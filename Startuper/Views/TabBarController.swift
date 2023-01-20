@@ -15,11 +15,11 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         
         let homeVC = presenter.createTab(with: HomeViewController(), image: "house", title: "Home")
-        let searchVC = presenter.createTab(with: SearchViewController(), image: "magnifyingglass", title: "Search")
         let favouriteVC = presenter.createTab(with: FavouriteViewController(), image: "heart.fill", title: "Favourite")
+        let chatsVC = presenter.createTab(with: ChatsViewController(), image: "message.fill", title: "Chats")
         let profileVC = presenter.createTab(with: ProfileViewController(), image: "person.fill", title: "Profile")
     
-        setViewControllers([homeVC, searchVC, favouriteVC, profileVC], animated: true)
+        setViewControllers([homeVC, favouriteVC, chatsVC, profileVC], animated: true)
     }
     
 }

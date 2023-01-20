@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SearchViewController: UIViewController {
+class ChatsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
