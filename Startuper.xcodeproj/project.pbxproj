@@ -13,6 +13,7 @@
 		B80A47EA2979BCA600A518A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A47E92979BCA600A518A7 /* HomeViewController.swift */; };
 		B80A47EF2979BCA600A518A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B80A47EE2979BCA600A518A7 /* Assets.xcassets */; };
 		B80A47F22979BCA600A518A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B80A47F02979BCA600A518A7 /* LaunchScreen.storyboard */; };
+		B8290B03297BDF8000E6D9E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B8290B02297BDF8000E6D9E7 /* GoogleService-Info.plist */; };
 		B877C7472979C07500BA08F0 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B877C7462979C07500BA08F0 /* TabBarController.swift */; };
 		B8D396D9297B12C300AD909F /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D396D8297B12C300AD909F /* TabBarPresenter.swift */; };
 		B8D396DB297B14C000AD909F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D396DA297B14C000AD909F /* ProfileViewController.swift */; };
@@ -30,6 +31,7 @@
 		B80A47EE2979BCA600A518A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B80A47F12979BCA600A518A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B80A47F32979BCA600A518A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8290B02297BDF8000E6D9E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B877C7462979C07500BA08F0 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B8D396D8297B12C300AD909F /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
 		B8D396DA297B14C000AD909F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
@@ -79,13 +81,14 @@
 		B80A47E42979BCA600A518A7 /* Startuper */ = {
 			isa = PBXGroup;
 			children = (
+				B80A47E52979BCA600A518A7 /* AppDelegate.swift */,
+				B80A47E72979BCA600A518A7 /* SceneDelegate.swift */,
 				B8D396D7297B122F00AD909F /* Presenters */,
 				B8D396D5297B121700AD909F /* Views */,
 				B8D396D6297B122500AD909F /* Models */,
-				B80A47E52979BCA600A518A7 /* AppDelegate.swift */,
-				B80A47E72979BCA600A518A7 /* SceneDelegate.swift */,
 				B80A47EE2979BCA600A518A7 /* Assets.xcassets */,
 				B80A47F02979BCA600A518A7 /* LaunchScreen.storyboard */,
+				B8290B02297BDF8000E6D9E7 /* GoogleService-Info.plist */,
 				B80A47F32979BCA600A518A7 /* Info.plist */,
 			);
 			path = Startuper;
@@ -189,6 +192,7 @@
 			files = (
 				B80A47F22979BCA600A518A7 /* LaunchScreen.storyboard in Resources */,
 				B80A47EF2979BCA600A518A7 /* Assets.xcassets in Resources */,
+				B8290B03297BDF8000E6D9E7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
