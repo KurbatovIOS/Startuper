@@ -85,8 +85,13 @@
 			children = (
 				B80A47E52979BCA600A518A7 /* AppDelegate.swift */,
 				B80A47E72979BCA600A518A7 /* SceneDelegate.swift */,
-				B8D396D7297B122F00AD909F /* Presenters */,
-				B8D396D5297B121700AD909F /* Views */,
+				B8A91ACB297BE99900C6EF65 /* FirebaseManager.swift */,
+				B8E4454E298C3D97001A21EC /* Login */,
+				B8E4454F298C3DD6001A21EC /* Tabs */,
+				B8E44550298C3DFA001A21EC /* Home */,
+				B8E44553298C3E11001A21EC /* Favourite */,
+				B8E44551298C3E01001A21EC /* Chats */,
+				B8E44552298C3E0C001A21EC /* Profile */,
 				B8D396D6297B122500AD909F /* Models */,
 				B80A47EE2979BCA600A518A7 /* Assets.xcassets */,
 				B80A47F02979BCA600A518A7 /* LaunchScreen.storyboard */,
@@ -96,18 +101,6 @@
 			path = Startuper;
 			sourceTree = "<group>";
 		};
-		B8D396D5297B121700AD909F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				B877C7462979C07500BA08F0 /* TabBarController.swift */,
-				B80A47E92979BCA600A518A7 /* HomeViewController.swift */,
-				B8D396DC297B14CB00AD909F /* ChatsViewController.swift */,
-				B8D396DE297B14E100AD909F /* FavouriteViewController.swift */,
-				B8D396DA297B14C000AD909F /* ProfileViewController.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		B8D396D6297B122500AD909F /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,13 +108,52 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		B8D396D7297B122F00AD909F /* Presenters */ = {
+		B8E4454E298C3D97001A21EC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B8E4454F298C3DD6001A21EC /* Tabs */ = {
 			isa = PBXGroup;
 			children = (
 				B8D396D8297B12C300AD909F /* TabBarPresenter.swift */,
-				B8A91ACB297BE99900C6EF65 /* FirebaseManager.swift */,
+				B877C7462979C07500BA08F0 /* TabBarController.swift */,
 			);
-			path = Presenters;
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		B8E44550298C3DFA001A21EC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B80A47E92979BCA600A518A7 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B8E44551298C3E01001A21EC /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				B8D396DC297B14CB00AD909F /* ChatsViewController.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		B8E44552298C3E0C001A21EC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				B8D396DA297B14C000AD909F /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		B8E44553298C3E11001A21EC /* Favourite */ = {
+			isa = PBXGroup;
+			children = (
+				B8D396DE297B14E100AD909F /* FavouriteViewController.swift */,
+			);
+			path = Favourite;
 			sourceTree = "<group>";
 		};
 		D741864EEEBCE1566562A2FA /* Pods */ = {
